@@ -1,11 +1,22 @@
 ---
 title: Shatter Me (Book 1)
 author: Tahereh Mafi
+series: Shatter Me #1
 layout: book
 status: read
 cover: /assets/covers/shatter-me-1.jpg
 first_published: 2011
 pages: 417
+started: July 28, 2024
+finished: August 1, 2024
+rating: 5
+audiobook: false
+format: paperback 
+genre: [YA, Dystopian, Fantasy, Romance]
+tropes: [Enemies to Lovers, Found Family, He Falls First, Dystopian Rebellion]
+warnings: [Violence, Death, Abuse, Confinement/Isolation]
+recommend: "Yes — if you love angst, dystopian romance, and lyrical writing."
+summary: Juliette has a lethal touch…
 ---
 
 ✨ **Quick Details**  
