@@ -4,9 +4,9 @@ title: Home
 permalink: /
 ---
 
-<div class="hero-home">
-  <img src="{{ '/assets/hero-books.jpeg' | relative_url }}" alt="Stack of books">
-  <div class="hero-text">
+<div class="hero-inline">
+  <img src="{{ '/assets/hero-books.jpg' | relative_url }}" alt="Stack of books">
+</div>
     <h1>✨ Welcome to My Reading Reverie 💫</h1>
     <p>Hi, I’m <span class="belle-script">𝓑𝓮𝓵𝓵𝓮 ❀</span> and welcome to my cozy little corner of the internet!<br>
     I created <strong>My Reading Reverie</strong> because books have always been my safe place, my adventures, and my dreams. This blog is where I’ll collect my bookish thoughts, track my never-ending TBR, and share the stories that either stole my heart or didn’t quite make it 💜</p>
