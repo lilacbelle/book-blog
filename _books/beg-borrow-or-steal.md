@@ -15,7 +15,7 @@ format: ebook
 genre: [Romance, Contemporary, Small Town]
 tropes: [Enemies to Lovers, Single Dad, Found Family, Banter, Sunshine/Grump]
 warnings: [Mild Language, Parental Death Mention]
-summary: A heartwarming small-town romance about a determined woman and a grumpy single dad whose lives collide in unexpected ways. With witty banter, found family vibes, and plenty of heart, this story blends humor and swoon-worthy romance.
+summary: Emily Walker hates having her carefully crafted world disrupted by anyone, most of all her legendary nemesis, Jack Bennett. He's the opposite of the wonderful heroes she dreams up in her double life as a romance writer, which is why Emily was perfectly happy when Jack left Rome, Kentucky, mid-school year, with his fiancée. The last thing Emily saw coming was Jack’s return at the start of the summer after calling off the wedding and ending his relationship, but he’s here to stay—as her colleague and her neighbor.
 ---
 
 This book was *everything* I wanted from Sarah Adams 💜 The banter was so sharp and fun, the emotional beats hit just right, and the small-town vibes made it cozy and addictive.  
