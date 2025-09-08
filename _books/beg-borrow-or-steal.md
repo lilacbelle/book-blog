@@ -20,7 +20,7 @@ summary: Emily Walker hates having her carefully crafted world disrupted by anyo
 
 This book was *everything* I wanted from Sarah Adams 💜 The banter was so sharp and fun, the emotional beats hit just right, and the small-town vibes made it cozy and addictive.  
 
-The romance was equal parts sweet and swoony, and the **single-dad dynamic** added so much depth and heart. I laughed, I melted, and I didn’t want it to end. Sarah’s books always feel like a warm hug, and this one definitely became a new comfort read for me.  
+The romance was equal parts sweet and swoony. I laughed, I melted, and I didn’t want it to end. Sarah’s books always feel like a warm hug, and this one definitely became a new comfort read for me.  
 
 <div class="note">
   Personal note: I’d beg, borrow, or steal just to read this book again ✨
