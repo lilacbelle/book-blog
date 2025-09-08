@@ -31,22 +31,6 @@ This book was a mix of angst, romance, and rebellion — exactly what I wanted.
 
 ---
 
-🎭 **Tropes**  
-- Enemies to Lovers (slow-burn tension)  
-- Found Family (later in the series)  
-- He Falls First (subtle hints)  
-- Dystopian Rebellion  
-
----
-
-⚠️ **Trigger Warnings**  
-- Violence  
-- Death  
-- Abuse  
-- Confinement/Isolation  
-
----
-
 ✨ **Favorite Quotes**  
 > "Raindrops are my only reminder that clouds have a heartbeat."  
 >  
