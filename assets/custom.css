@@ -202,3 +202,27 @@ hr{
   vertical-align: middle;
   margin-right: 6px;
 }
+
+/* About page styling */
+.page-content h1{
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.6rem;
+}
+
+.page-content blockquote{
+  font-style: italic;
+  color: var(--muted);
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.page-content ul{
+  list-style: none;
+  padding-left: 0;
+  margin: .8rem 0;
+}
+.page-content ul li{
+  margin: .35rem 0;
+  font-size: .95rem;
+}
