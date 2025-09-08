@@ -48,3 +48,12 @@ nav:
 minima:
   social_links:
     - { platform: github,  user_url: "https://github.com/YOUR_USERNAME" }
+
+# Controls top navigation order for Minima
+header_pages:
+  - index.md
+  - bookshelf.md
+  - read.md
+  - tbr.md
+  - dnf.md
+  - about.md
