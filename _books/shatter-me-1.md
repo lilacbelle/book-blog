@@ -15,9 +15,6 @@ format: paperback
 genre: [YA, Dystopian, Fantasy, Romance]
 tropes: [Enemies to Lovers, Found Family, He Falls First, Dystopian Rebellion]
 warnings: [Violence, Death, Abuse, Confinement/Isolation]
-recommend: |
-  ✅ *Yes, if you like*: dystopian romance, angsty writing styles, and lots of tension.  
-  ❌ *Skip if you dislike*: dramatic/poetic narration or love triangles.
 summary: Juliette has a lethal touch — one skin-to-skin contact and she can kill. Locked away by The Reestablishment, she feels broken, dangerous, and completely alone… until she discovers that her gift might be the key to bringing down the corrupt system controlling their world. Along the way, she’s forced to question who she can trust — and who she can’t.
 ---
  
@@ -46,3 +43,6 @@ This book was a mix of angst, romance, and rebellion — exactly what I wanted.
 
 ---
 
+🤔 **Recommend?**  
+✅ *Yes, if you like*: dystopian romance, angsty writing styles, and lots of tension.  
+❌ *Skip if you dislike*: dramatic/poetic narration or love triangles.
