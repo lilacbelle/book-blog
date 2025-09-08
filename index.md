@@ -4,7 +4,7 @@ title: Home
 permalink: /
 ---
 
-<div class="hero-inline">
+<div class="hero-banner">
   <img src="{{ '/assets/hero-books.jpeg' | relative_url }}" alt="Stack of books">
 </div>
 
