@@ -36,5 +36,5 @@ The romance was equal parts sweet and swoony. I laughed, I melted, and I didn’
 ---
 
 🤔 **Recommend?**  
-✅ *Yes, if you like*: small-town romance, single-dad tropes, witty banter, and stories full of warmth.  
+✅ *Yes, if you like*: small-town romance, witty banter, and stories full of warmth.  
 ❌ *Skip if you dislike*: lighthearted romances with a mix of humor and heart.
