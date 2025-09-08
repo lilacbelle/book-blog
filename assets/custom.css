@@ -226,3 +226,16 @@ hr{
   margin: .35rem 0;
   font-size: .95rem;
 }
+
+.about-photo{
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+}
+.about-photo img{
+  width: 140px;          /* adjust size */
+  height: 140px;
+  border-radius: 50%;    /* makes it a circle */
+  object-fit: cover;
+  box-shadow: var(--shadow);
+  border: 2px solid #f2ecff;
+}
