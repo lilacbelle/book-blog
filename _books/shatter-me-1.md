@@ -1,6 +1,7 @@
 ---
 title: Shatter Me (Book 1)
 author: Tahereh Mafi
+layout: book
 status: read
 cover: /assets/covers/shatter-me-1.jpg
 ---
