@@ -18,8 +18,7 @@ warnings: [Violence, Death, Abuse, Confinement/Isolation]
 recommend: "Yes — if you love angst, dystopian romance, and lyrical writing."
 summary: Juliette has a lethal touch — one skin-to-skin contact and she can kill. Locked away by The Reestablishment, she feels broken, dangerous, and completely alone… until she discovers that her gift might be the key to bringing down the corrupt system controlling their world. Along the way, she’s forced to question who she can trust — and who she can’t.
 ---
-
-💭 **My Thoughts**  
+ 
 *Shatter Me* pulled me into Juliette’s world right away. The writing is unique, lyrical, and full of crossed-out thoughts that make you feel like you’re inside her head. I loved how intense and emotional it was — sometimes dramatic, sometimes poetic, but always gripping.  
 
 Juliette is such an interesting narrator: fragile yet strong, and her voice feels so raw. Warner instantly caught my attention (you can already tell he’s going to be more than “just the villain”), and Adam… well, the tension was real! The pacing was fast, and it left me needing the next book immediately.  
