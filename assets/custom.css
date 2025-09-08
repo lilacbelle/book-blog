@@ -177,17 +177,20 @@ hr{
 .cta-row{ display:flex; flex-wrap:wrap; gap:.6rem; margin-top:.6rem; }
 .btn.big{ font-size:1rem; padding:.7rem 1rem; }
 
-.hero-inline{
-  text-align: center;
-  margin: 1rem 0 1.5rem;
+.hero-banner{
+  width: 100%;
+  height: 200px;             /* adjust to 180px–250px for taste */
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin: 0 0 1.5rem;
+  box-shadow: var(--shadow);
 }
 
-.hero-inline img{
-  max-width: 260px;   /* 👈 controls size */
-  height: auto;       /* keeps proportions */
-  border-radius: 16px;
-  box-shadow: var(--shadow);
-  display: inline-block;
+.hero-banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* keeps it cropped like Notion */
+  display: block;
 }
 
 .belle-script{ font-family:"Playfair Display", Georgia, serif; letter-spacing:.2px; }
