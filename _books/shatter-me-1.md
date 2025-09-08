@@ -4,16 +4,15 @@ author: Tahereh Mafi
 layout: book
 status: read
 cover: /assets/covers/shatter-me-1.jpg
+first_published: 2011
+pages: 417
 ---
 
 ✨ **Quick Details**  
 **Title:** Shatter Me  
 **Author:** Tahereh Mafi  
 **Series:** Shatter Me (#1)  
-
-**Genre:** YA, Dystopian, Fantasy, Romance  
-**Pages:** 417  
-**First Published:** 2011  
+**Genre:** YA, Dystopian, Fantasy, Romance   
 
 ---
 
