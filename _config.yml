@@ -1,7 +1,7 @@
 title: Belle's Bookshelf
 description: My reading life — Read, TBR, and DNF.
-url: "" # fill after Pages gives you your URL, e.g. https://username.github.io/book-blog
-baseurl: "" # keep empty if deploying at root
+url: "https://lilacbelle.github.io/" # fill after Pages gives you your URL, e.g. https://username.github.io/book-blog
+baseurl: "/book-blog" # keep empty if deploying at root
 timezone: Asia/Bahrain
 theme: minima
 
