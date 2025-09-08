@@ -7,11 +7,14 @@ permalink: /
 <div class="hero-inline">
   <img src="{{ '/assets/hero-books.jpeg' | relative_url }}" alt="Stack of books">
 </div>
-    <h1>✨ Welcome to My Reading Reverie 💫</h1>
-    <p>Hi, I’m <span class="belle-script">𝓑𝓮𝓵𝓵𝓮 ❀</span> and welcome to my cozy little corner of the internet!<br>
-    I created <strong>My Reading Reverie</strong> because books have always been my safe place, my adventures, and my dreams. This blog is where I’ll collect my bookish thoughts, track my never-ending TBR, and share the stories that either stole my heart or didn’t quite make it 💜</p>
-  </div>
-</div>
+
+<h1>✨ Welcome to My Reading Reverie 💫</h1>
+
+<p>
+  Hi, I’m <span class="belle-script">𝓑𝓮𝓵𝓵𝓮 ❀</span> and welcome to my cozy little corner of the internet!<br>
+  I created <strong>My Reading Reverie</strong> because books have always been my safe place, my adventures, and my dreams.
+  This blog is where I’ll collect my bookish thoughts, track my never-ending TBR, and share the stories that either stole my heart or didn’t quite make it 💜
+</p>
 
 <div class="home-card">
   <h3>Here’s how I’ll be organizing my shelves here:</h3>
