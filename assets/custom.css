@@ -178,11 +178,14 @@ hr{
 .btn.big{ font-size:1rem; padding:.7rem 1rem; }
 
 @media (max-width:700px){
-  .hero-home img{ 
-  width:100%; 
-  height:180px;   /* was 280px */
-  object-fit:cover; 
-  display:block; 
+  .hero-inline{
+  text-align:center;
+  margin:1rem 0 1.5rem;
+}
+.hero-inline img{
+  max-width:280px;
+  border-radius:16px;
+  box-shadow:var(--shadow);
 }
   .hero-text{ padding:.8rem 1rem; }
 }
