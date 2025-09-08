@@ -163,7 +163,7 @@ hr{
 
 /* Home hero */
 .hero-home{ position:relative; border-radius:var(--radius); overflow:hidden; box-shadow:var(--shadow); margin-bottom:1rem; border:1px solid #efeaf9; }
-.hero-home img{ width:100%; height:280px; object-fit:cover; display:block; }
+/*.hero-home img{ width:100%; height:280px; object-fit:cover; display:block; }*/
 .hero-text{ position:absolute; inset:auto 0 0 0; padding:1rem 1.2rem; background:linear-gradient(180deg, transparent, rgba(36,31,28,.65)); color:#fff; }
 .hero-text h1{ margin:0 0 .25rem; color:#fff; }
 .belle-script{ font-family:"Playfair Display", Georgia, serif; letter-spacing:.2px; }
@@ -177,8 +177,17 @@ hr{
 .cta-row{ display:flex; flex-wrap:wrap; gap:.6rem; margin-top:.6rem; }
 .btn.big{ font-size:1rem; padding:.7rem 1rem; }
 
-@media (max-width:700px){
-.hero-inline img{ max-width:260px; border-radius:16px; box-shadow:var(--shadow); }
+.hero-inline{
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+}
+
+.hero-inline img{
+  max-width: 260px;   /* 👈 controls size */
+  height: auto;       /* keeps proportions */
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  display: inline-block;
 }
 
 .belle-script{ font-family:"Playfair Display", Georgia, serif; letter-spacing:.2px; }
