@@ -6,6 +6,10 @@ permalink: /about/
 
 # ✨ About Me
 
+<div class="about-photo">
+  <img src="{{ '/assets/me.jpeg' | relative_url }}" alt="Photo of Belle">
+</div>
+
 Hi, I’m <span class="belle-script">𝓑𝓮𝓵𝓵𝓮 ❀</span> — the girl behind <em>My Reading Reverie</em>.  
 
 <blockquote>“Lost in stories, found in reverie.”</blockquote>
