@@ -179,7 +179,7 @@ hr{
 
 .hero-banner{
   width: 280px;
-  height: 16px;             /* adjust to 180px–250px for taste */
+  height: 50px;             /* adjust to 180px–250px for taste */
   border-radius: var(--radius);
   overflow: hidden;
   margin: 0 0 1.5rem;
@@ -188,7 +188,7 @@ hr{
 
 .hero-banner img{
   width: 280px;
-  height: 16px;
+  height: 50px;
   object-fit: cover;         /* keeps it cropped like Notion */
   display: block;
 }
