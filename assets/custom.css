@@ -178,13 +178,7 @@ hr{
 .btn.big{ font-size:1rem; padding:.7rem 1rem; }
 
 @media (max-width:700px){
-  .hero-inline{
-  text-align:center;
-  margin:1rem 0 1.5rem;
+.hero-inline img{ max-width:260px; border-radius:16px; box-shadow:var(--shadow); }
 }
-.hero-inline img{
-  max-width:280px;
-  border-radius:16px;
-  box-shadow:var(--shadow);
-}
-}
+
+.belle-script{ font-family:"Playfair Display", Georgia, serif; letter-spacing:.2px; }
