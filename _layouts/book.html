@@ -1,0 +1,161 @@
+---
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include head.html %}
+  </head>
+  <body class="book">
+    <!-- Top navigation -->
+    <header class="topnav">
+      <div class="wrap">
+        <a class="brand" href="{{ site.baseurl | append:'/' }}"><span>📚</span> {{ site.title }}</a>
+        <nav class="links">
+          {% for item in site.nav %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <!-- Breadcrumb -->
+        <p class="crumbs"><a href="{{ '/' | relative_url }}">Home</a> › <a href="{{ '/bookshelf/' | relative_url }}">Bookshelf</a> › {{ page.title }}</p>
+
+        <!-- Hero: cover + meta -->
+        <article class="card hero">
+          <div class="hero-cover">
+            {% if page.cover %}
+              <img src="{{ page.cover | relative_url }}" alt="Cover of {{ page.title }}">
+            {% else %}
+              <div class="cover-placeholder" aria-hidden="true"></div>
+            {% endif %}
+          </div>
+
+          <div class="hero-body">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p class="post-meta">
+              {{ page.author }}
+              {% if page.series %} · <em>{{ page.series }}</em>{% endif %}
+            </p>
+
+            <!-- Quick detail chips -->
+            <div class="chips">
+              {% if page.genre %}<span class="chip">{{ page.genre | join: " · " }}</span>{% endif %}
+              {% if page.pages %}<span class="chip">{{ page.pages }} pages</span>{% endif %}
+              {% if page.first_published %}<span class="chip">First published {{ page.first_published }}</span>{% endif %}
+              {% if page.status %}<span class="chip">{{ page.status | upcase }}</span>{% endif %}
+              {% if page.rating %}<span class="chip">{{ page.rating }}★</span>{% endif %}
+              {% if page.audiobook %}<span class="chip">Audiobook</span>{% endif %}
+            </div>
+
+            <!-- Dates row -->
+            <div class="dates">
+              {% if page.started %}<div><strong>Started:</strong> {{ page.started }}</div>{% endif %}
+              {% if page.finished %}<div><strong>Finished:</strong> {{ page.finished }}</div>{% endif %}
+            </div>
+          </div>
+        </article>
+
+        <!-- Content sections -->
+        <article class="post card">
+          {% if page.summary %}
+            <section>
+              <h3>📚 Summary (non-spoiler)</h3>
+              <p>{{ page.summary }}</p>
+            </section>
+            <hr>
+          {% endif %}
+
+          <section>
+            <h3>💭 My Thoughts</h3>
+            {{ content }}
+          </section>
+
+          {% if page.tropes or page.warnings or page.quotes %}
+            <hr>
+          {% endif %}
+
+          {% if page.tropes %}
+            <section>
+              <h3>🎭 Tropes</h3>
+              <ul class="pill-list">
+                {% for t in page.tropes %}
+                  <li class="pill">{{ t }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
+          {% if page.warnings %}
+            <section>
+              <h3>⚠️ Trigger Warnings</h3>
+              <ul class="pill-list">
+                {% for w in page.warnings %}
+                  <li class="pill warn">{{ w }}</li>
+                {% endfor %}
+              </ul>
+            </section>
+          {% endif %}
+
+          {% if page.quotes %}
+            <section>
+              <h3>✨ Favorite Quotes</h3>
+              <blockquote class="quote-block">
+                <ul>
+                  {% for q in page.quotes %}
+                    <li>“{{ q }}”</li>
+                  {% endfor %}
+                </ul>
+              </blockquote>
+            </section>
+          {% endif %}
+
+          {% if page.recommend %}
+            <hr>
+            <section>
+              <h3>🤔 Recommend?</h3>
+              <p>{{ page.recommend }}</p>
+            </section>
+          {% endif %}
+        </article>
+
+        <!-- Prev / Next navigation across the books collection -->
+        {% assign sorted = site.books | sort: 'title' %}
+        {% assign prev = nil %}
+        {% assign next = nil %}
+        {% for b in sorted %}
+          {% if b.url == page.url %}
+            {% assign idx = forloop.index0 %}
+            {% if idx > 0 %}
+              {% assign prev = sorted[idx | minus: 1] %}
+            {% endif %}
+            {% if idx < sorted.size | minus: 1 %}
+              {% assign next = sorted[idx | plus: 1] %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        <nav class="pager">
+          <div class="pager-item">
+            {% if prev %}
+              <a class="btn subtle" href="{{ prev.url | relative_url }}">← {{ prev.title }}</a>
+            {% endif %}
+          </div>
+          <div class="pager-center">
+            <a class="btn" href="{{ '/bookshelf/' | relative_url }}">Back to Bookshelf</a>
+          </div>
+          <div class="pager-item right">
+            {% if next %}
+              <a class="btn subtle" href="{{ next.url | relative_url }}">{{ next.title }} →</a>
+            {% endif %}
+          </div>
+        </nav>
+      </div>
+    </main>
+  </body>
+</html>
