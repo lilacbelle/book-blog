@@ -1,0 +1,50 @@
+title: Belle's Bookshelf
+description: My reading life — Read, TBR, and DNF.
+url: "" # fill after Pages gives you your URL, e.g. https://username.github.io/book-blog
+baseurl: "" # keep empty if deploying at root
+timezone: Asia/Bahrain
+theme: minima
+
+# Collections for books
+collections:
+  books:
+    output: true
+    permalink: /books/:title/
+
+# Defaults = a “template” for new books
+defaults:
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+      status: tbr   # options: read, tbr, dnf
+      rating: 0
+      audiobook: false
+      genre: []
+      tropes: []
+      warnings: []
+      pages: 0
+      started: ""   # e.g., 2025-08-10
+      finished: ""  # e.g., 2025-08-14
+      recommend: "" # yes/no + why
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Bookshelf
+    url: /bookshelf/
+  - title: Read
+    url: /read/
+  - title: TBR
+    url: /tbr/
+  - title: DNF
+    url: /dnf/
+  - title: About
+    url: /about/
+
+# Minima options
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/YOUR_USERNAME" }
