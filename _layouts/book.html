@@ -12,7 +12,10 @@
     <!-- Top navigation -->
     <header class="topnav">
       <div class="wrap">
-        <a class="brand" href="{{ site.baseurl | append:'/' }}"><span>📚</span> {{ site.title }}</a>
+        <a class="brand" href="{{ site.baseurl | append:'/' }}">
+  <img src="{{ '/assets/book-icon.png' | relative_url }}" alt="" class="brand-icon">
+  {{ site.title }}
+</a>
         <nav class="links">
           {% for item in site.nav %}
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
