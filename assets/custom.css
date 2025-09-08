@@ -183,9 +183,8 @@ hr{
   margin:1rem 0 1.5rem;
 }
 .hero-inline img{
-  max-width:280px;
+  max-width:260px;
   border-radius:16px;
   box-shadow:var(--shadow);
 }
-  .hero-text{ padding:.8rem 1rem; }
 }
