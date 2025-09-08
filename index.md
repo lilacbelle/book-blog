@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="hero-inline">
-  <img src="{{ '/assets/hero-books.jpg' | relative_url }}" alt="Stack of books">
+  <img src="{{ '/assets/hero-books.jpeg' | relative_url }}" alt="Stack of books">
 </div>
     <h1>✨ Welcome to My Reading Reverie 💫</h1>
     <p>Hi, I’m <span class="belle-script">𝓑𝓮𝓵𝓵𝓮 ❀</span> and welcome to my cozy little corner of the internet!<br>
