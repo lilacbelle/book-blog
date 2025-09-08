@@ -195,3 +195,10 @@ hr{
 }
 
 .belle-script{ font-family:"Playfair Display", Georgia, serif; letter-spacing:.2px; }
+
+.brand-icon{
+  height: 20px;     /* adjust to 18–24px depending on your font size */
+  width: auto;
+  vertical-align: middle;
+  margin-right: 6px;
+}
